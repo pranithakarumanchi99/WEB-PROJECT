@@ -1,0 +1,3158 @@
+{
+  "questions1": [
+    {
+      "answers": [
+        {
+          "answer": "1972",
+          "threshold": 1
+        },
+        {
+          "answer": "1980",
+          "threshold": 0
+        },
+        {
+          "answer": "1967",
+          "threshold": 0
+        },
+        {
+          "answer": "1976",
+          "threshold": 0
+        }
+      ],
+      "question": "C Programming was created in Year _______"
+    },
+    {
+      "answers": [
+        {
+          "answer": "BASIC",
+          "threshold": 0
+        },
+        {
+          "answer": "PASCAL",
+          "threshold": 0
+        },
+        {
+          "answer": "BCPL",
+          "threshold": 0
+        },
+        {
+          "answer": "B",
+          "threshold": 1
+        }
+      ],
+      "question": "Many features of C were derived from an earlier language called _____."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Integer",
+          "threshold": 0
+        },
+        {
+          "answer": "Integer pointer",
+          "threshold": 1
+        },
+        {
+          "answer": "Error in declaration",
+          "threshold": 0
+        },
+        {
+          "answer": "None of above",
+          "threshold": 0
+        }
+      ],
+      "question": "In the following code, the P2 is Integer Pointer or Integer?\ntypedef int *ptr\nptr p1, p2;"
+    },
+    {
+      "answers": [
+        {
+          "answer": "P is a constant",
+          "threshold": 1
+        },
+        {
+          "answer": "P is a character constant",
+          "threshold": 0
+        },
+        {
+          "answer": "P is character type",
+          "threshold": 0
+        },
+        {
+          "answer": "None of above",
+          "threshold": 0
+        }
+      ],
+      "question": "In the following code what is 'P'?\ntypedef char *charp;\nconst charp P;"
+    },
+    {
+      "answers": [
+        {
+          "answer": "rem = 3.14 % 2.1;",
+          "threshold": 0
+        },
+        {
+          "answer": "rem = modf(3.14, 2.1);",
+          "threshold": 0
+        },
+        {
+          "answer": "rem = fmod(3.14, 2.1);",
+          "threshold": 1
+        },
+        {
+          "answer": "Remainder cannot be obtain in floating point division.",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1"
+    },
+    {
+      "answers": [
+        {
+          "answer": "* (asterisk)",
+          "threshold": 0
+        },
+        {
+          "answer": "| (pipeline)",
+          "threshold": 0
+        },
+        {
+          "answer": "- (hyphen)",
+          "threshold": 0
+        },
+        {
+          "answer": "_ (underscore)",
+          "threshold": 1
+        }
+      ],
+      "question": "Which of the following special symbol allowed in a variable name?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Both are identical",
+          "threshold": 0
+        },
+        {
+          "answer": "No difference, except extern int fun(); is probably in another file",
+          "threshold": 1
+        },
+        {
+          "answer": "int fun(); is overrided with extern int fun();",
+          "threshold": 0
+        },
+        {
+          "answer": "None of these",
+          "threshold": 0
+        }
+      ],
+      "question": "Is there any difference between following declarations?\n1 :	extern int fun();\nint fun();"
+    },
+    {
+      "answers": [
+        {
+          "answer": "ceil(1.66)",
+          "threshold": 1
+        },
+        {
+          "answer": "floor(1.66)",
+          "threshold": 0
+        },
+        {
+          "answer": "roundup(1.66)",
+          "threshold": 0
+        },
+        {
+          "answer": "roundto(1.66)",
+          "threshold": 0
+        }
+      ],
+      "question": "How would you round off a value from 1.66 to 2.0?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Representation of NULL pointer",
+          "threshold": 1
+        },
+        {
+          "answer": "Representation of void pointer",
+          "threshold": 0
+        },
+        {
+          "answer": "Error",
+          "threshold": 0
+        },
+        {
+          "answer": "None of above",
+          "threshold": 0
+        }
+      ],
+      "question": "What is (void*)0?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "stdio.h",
+          "threshold": 0
+        },
+        {
+          "answer": "stddef.h",
+          "threshold": 0
+        },
+        {
+          "answer": "stdio.h and stddef.h",
+          "threshold": 0
+        },
+        {
+          "answer": "math.h",
+          "threshold": 0
+        }
+      ],
+      "question": "In which header file is the NULL macro defined?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "class, if, void, long, Int, continue",
+          "threshold": 0
+        },
+        {
+          "answer": "goto, instanceof, native, finally, default, throws",
+          "threshold": 1
+        },
+        {
+          "answer": "try, virtual, throw, final, volatile, transient",
+          "threshold": 0
+        },
+        {
+          "answer": "strictfp, constant, super, implements, do",
+          "threshold": 0
+        }
+      ],
+      "question": "Which one of these lists contains only Java programming language keywords?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "method",
+          "threshold": 0
+        },
+        {
+          "answer": "native",
+          "threshold": 0
+        },
+        {
+          "answer": "subclasses",
+          "threshold": 0
+        },
+        {
+          "answer": "reference",
+          "threshold": 0
+        }
+      ],
+      "question": "Which is a reserved word in the Java programming language?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "interface",
+          "threshold": 1
+        },
+        {
+          "answer": "string",
+          "threshold": 0
+        },
+        {
+          "answer": "Float",
+          "threshold": 0
+        },
+        {
+          "answer": "unsigned",
+          "threshold": 0
+        }
+      ],
+      "question": "Which is a valid keyword in java?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "public double methoda();",
+          "threshold": 1
+        },
+        {
+          "answer": "public final double methoda();",
+          "threshold": 0
+        },
+        {
+          "answer": "static void methoda(double d1);",
+          "threshold": 0
+        },
+        {
+          "answer": "protected void methoda(double d1);",
+          "threshold": 0
+        }
+      ],
+      "question": "Which is the valid declarations within an interface definition?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "TreeMap",
+          "threshold": 0
+        },
+        {
+          "answer": "HashMap",
+          "threshold": 0
+        },
+        {
+          "answer": "LinkedHashMap",
+          "threshold": 1
+        },
+        {
+          "answer": "The answer depends on the implementation of the existing instance",
+          "threshold": 0
+        }
+      ],
+      "question": "Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "java.lang.String",
+          "threshold": 0
+        },
+        {
+          "answer": "java.lang.Double",
+          "threshold": 0
+        },
+        {
+          "answer": "java.lang.StringBuffer",
+          "threshold": 1
+        },
+        {
+          "answer": "java.lang.Character",
+          "threshold": 0
+        }
+      ],
+      "question": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Java.util.Map",
+          "threshold": 1
+        },
+        {
+          "answer": "Java.util.List",
+          "threshold": 0
+        },
+        {
+          "answer": "Java.util.HashTable",
+          "threshold": 0
+        },
+        {
+          "answer": "Java.util.Collection",
+          "threshold": 0
+        }
+      ],
+      "question": "Which interface does java.util.Hashtable implement?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "java.util.ArrayList",
+          "threshold": 0
+        },
+        {
+          "answer": "java.util.LinkedHashMap",
+          "threshold": 1
+        },
+        {
+          "answer": "java.util.HashMap",
+          "threshold": 0
+        },
+        {
+          "answer": "java.util.TreeMap",
+          "threshold": 0
+        }
+      ],
+      "question": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "float f = 1F;",
+          "threshold": 1
+        },
+        {
+          "answer": "float f = 1.0;",
+          "threshold": 0
+        },
+        {
+          "answer": "float f = 1",
+          "threshold": 0
+        },
+        {
+          "answer": "float f = 1.0;",
+          "threshold": 0
+        }
+      ],
+      "question": "Which is valid declaration of a float?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Calling the SetPriority() method on a Thread object.",
+          "threshold": 0
+        },
+        {
+          "answer": "Calling the wait() method on an object.",
+          "threshold": 0
+        },
+        {
+          "answer": "Calling notify() method on an object.",
+          "threshold": 1
+        },
+        {
+          "answer": "Calling read() method on an InputStream objec",
+          "threshold": 0
+        }
+      ],
+      "question": "Which cannot directly cause a thread to stop executing?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Tables",
+          "threshold": 1
+        },
+        {
+          "answer": "Fields",
+          "threshold": 0
+        },
+        {
+          "answer": "Records",
+          "threshold": 0
+        },
+        {
+          "answer": "Keys",
+          "threshold": 0
+        }
+      ],
+      "question": "A relational database consists of a collection of"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Column",
+          "threshold": 0
+        },
+        {
+          "answer": "Key",
+          "threshold": 0
+        },
+        {
+          "answer": "Row",
+          "threshold": 0
+        },
+        {
+          "answer": "Entry",
+          "threshold": 0
+        }
+      ],
+      "question": "A ________ in a table represents a relationship among a set of values."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Record",
+          "threshold": 0
+        },
+        {
+          "answer": "Column",
+          "threshold": 1
+        },
+        {
+          "answer": "Tuple",
+          "threshold": 0
+        },
+        {
+          "answer": "Key",
+          "threshold": 0
+        }
+      ],
+      "question": "The term attribute refers to a ___________ of a table."
+    },
+    {
+      "answers": [
+        {
+          "answer": " Instance, Schema",
+          "threshold": 0
+        },
+        {
+          "answer": " Relation, Schema",
+          "threshold": 0
+        },
+        {
+          "answer": "Relation, Domain",
+          "threshold": 0
+        },
+        {
+          "answer": "Schema, Instance",
+          "threshold": 1
+        }
+      ],
+      "question": "Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Any",
+          "threshold": 1
+        },
+        {
+          "answer": "Same",
+          "threshold": 0
+        },
+        {
+          "answer": "Sorted",
+          "threshold": 0
+        },
+        {
+          "answer": "Constant",
+          "threshold": 0
+        }
+      ],
+      "question": "The tuples of the relations can be of ________ order"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Empty tuple",
+          "threshold": 0
+        },
+        {
+          "answer": "New value",
+          "threshold": 1
+        },
+        {
+          "answer": "Null value",
+          "threshold": 0
+        },
+        {
+          "answer": "Old value",
+          "threshold": 0
+        }
+      ],
+      "question": "A _____ indicates an absent value that may exist but be unknown or that may not exist at all."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Null",
+          "threshold": 0
+        },
+        {
+          "answer": "Unique",
+          "threshold": 0
+        },
+        {
+          "answer": "Not null",
+          "threshold": 0
+        },
+        {
+          "answer": "Distinct",
+          "threshold": 1
+        }
+      ],
+      "question": "Using the ______ clause retains only one copy of such identical tuples."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Dashed line",
+          "threshold": 0
+        },
+        {
+          "answer": "Double line",
+          "threshold": 1
+        },
+        {
+          "answer": "Double rectangle",
+          "threshold": 0
+        },
+        {
+          "answer": "Circle",
+          "threshold": 0
+        }
+      ],
+      "question": "The total participation by entities is represented in E-R diagram as"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Ellipse",
+          "threshold": 0
+        },
+        {
+          "answer": "Dashed ellipse",
+          "threshold": 0
+        },
+        {
+          "answer": "Rectangle",
+          "threshold": 0
+        },
+        {
+          "answer": "Triangle",
+          "threshold": 1
+        }
+      ],
+      "question": "In E-R diagram generalization is represented by"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Relational-and",
+          "threshold": 0
+        },
+        {
+          "answer": "Concatenation",
+          "threshold": 1
+        },
+        {
+          "answer": "Dot representation",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the mentioned",
+          "threshold": 0
+        }
+      ],
+      "question": "What is the best way to represent the attributes in a large database?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Binary Search",
+          "threshold": 0
+        },
+        {
+          "answer": "Linear Search",
+          "threshold": 0
+        },
+        {
+          "answer": "Tree Search",
+          "threshold": 0
+        },
+        {
+          "answer": "Hashing",
+          "threshold": 1
+        }
+      ],
+      "question": "A technique for direct search is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Hash tables",
+          "threshold": 1
+        },
+        {
+          "answer": "Heaps",
+          "threshold": 0
+        },
+        {
+          "answer": "Both Hash tables and Heaps",
+          "threshold": 0
+        },
+        {
+          "answer": "Skip list",
+          "threshold": 0
+        }
+      ],
+      "question": "Key value pairs is usually seen in"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Commit",
+          "threshold": 0
+        },
+        {
+          "answer": "Rollback",
+          "threshold": 1
+        },
+        {
+          "answer": "Savepoint",
+          "threshold": 0
+        },
+        {
+          "answer": "Deadlock",
+          "threshold": 0
+        }
+      ],
+      "question": "The deadlock state can be changed back to stable state by using _____________ statement."
+    },
+    {
+      "answers": [
+        {
+          "answer": "Lock timeout",
+          "threshold": 1
+        },
+        {
+          "answer": "Wait-wound",
+          "threshold": 0
+        },
+        {
+          "answer": "Timeout",
+          "threshold": 0
+        },
+        {
+          "answer": "Wait",
+          "threshold": 0
+        }
+      ],
+      "question": "The situation where the lock waits only for a specified amount of time for another lock to be released is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Cycle",
+          "threshold": 1
+        },
+        {
+          "answer": "Direction",
+          "threshold": 0
+        },
+        {
+          "answer": "Bi-direction",
+          "threshold": 0
+        },
+        {
+          "answer": "Rotation",
+          "threshold": 0
+        }
+      ],
+      "question": "A deadlock exists in the system if and only if the wait-for graph contains a ___________"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Lists",
+          "threshold": 1
+        },
+        {
+          "answer": "Dictionary",
+          "threshold": 0
+        },
+        {
+          "answer": "Tuples",
+          "threshold": 0
+        },
+        {
+          "answer": "Class",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of these in not a core data type?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "round(45.8)",
+          "threshold": 1
+        },
+        {
+          "answer": "round(6352.898,2,5)",
+          "threshold": 0
+        },
+        {
+          "answer": "round()",
+          "threshold": 0
+        },
+        {
+          "answer": "round(7463.123,2,1)",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of the following will run without errors ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Class",
+          "threshold": 1
+        },
+        {
+          "answer": "Lists",
+          "threshold": 0
+        },
+        {
+          "answer": "Dictionary",
+          "threshold": 0
+        },
+        {
+          "answer": "Tuples",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of these in not a core data type?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "SyntaxError",
+          "threshold": 0
+        },
+        {
+          "answer": "NameError",
+          "threshold": 1
+        },
+        {
+          "answer": "ValueError",
+          "threshold": 0
+        },
+        {
+          "answer": "TypeError",
+          "threshold": 0
+        }
+      ],
+      "question": "What error occurs when you execute?apple = mango"
+    },
+    {
+      "answers": [
+        {
+          "answer": "A method",
+          "threshold": 0
+        },
+        {
+          "answer": "An object",
+          "threshold": 1
+        },
+        {
+          "answer": "A class",
+          "threshold": 0
+        },
+        {
+          "answer": "An operator",
+          "threshold": 0
+        }
+      ],
+      "question": "_____ represents an entity in the real world with its identity and behaviour"
+    },
+    {
+      "answers": [
+        {
+          "answer": "class",
+          "threshold": 0
+        },
+        {
+          "answer": "constructor",
+          "threshold": 1
+        },
+        {
+          "answer": "User-defined functions",
+          "threshold": 0
+        },
+        {
+          "answer": "In-built functions",
+          "threshold": 0
+        }
+      ],
+      "question": " _____ is used to create an object."
+    },
+    {
+      "answers": [
+        {
+          "answer": "True",
+          "threshold": 0
+        },
+        {
+          "answer": "False",
+          "threshold": 0
+        },
+        {
+          "answer": "Machine dependent",
+          "threshold": 0
+        },
+        {
+          "answer": "Error",
+          "threshold": 0
+        }
+      ],
+      "question": "What is the output of print 0.1 + 0.2 == 0.3?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "+5",
+          "threshold": 1
+        },
+        {
+          "answer": "-11",
+          "threshold": 0
+        },
+        {
+          "answer": "+11",
+          "threshold": 0
+        },
+        {
+          "answer": "-5",
+          "threshold": 0
+        }
+      ],
+      "question": "What does ~~~~~~5 evaluate to?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "81",
+          "threshold": 0
+        },
+        {
+          "answer": "12",
+          "threshold": 0
+        },
+        {
+          "answer": "0.75",
+          "threshold": 0
+        },
+        {
+          "answer": " 7",
+          "threshold": 1
+        }
+      ],
+      "question": "What does 3 ^ 4 evaluate to?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "000456",
+          "threshold": 0
+        },
+        {
+          "answer": "456000",
+          "threshold": 0
+        },
+        {
+          "answer": "456",
+          "threshold": 1
+        },
+        {
+          "answer": "error",
+          "threshold": 0
+        }
+      ],
+      "question": "What is the output of the following expression if x=456?print(%-06d%x)"
+    },
+    {
+      "answers": [
+        {
+          "answer": "14",
+          "threshold": 0
+        },
+        {
+          "answer": "15",
+          "threshold": 0
+        },
+        {
+          "answer": "16",
+          "threshold": 1
+        },
+        {
+          "answer": "17",
+          "threshold": 0
+        }
+      ],
+      "question": "How many error levels are available in PHP?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "/",
+          "threshold": 0
+        },
+        {
+          "answer": "!",
+          "threshold": 0
+        },
+        {
+          "answer": "~",
+          "threshold": 1
+        },
+        {
+          "answer": "^",
+          "threshold": 0
+        }
+      ],
+      "question": "Which character do the error_reporting directive use to represent the logical operator NOT?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2, 7, 2, 6, 5, 11, 5, 9, 4",
+          "threshold": 1
+        },
+        {
+          "answer": "2, 7, 5, 2, 6, 9, 5, 11, 4",
+          "threshold": 0
+        },
+        {
+          "answer": "2, 5, 11, 6, 7, 4, 9, 5, 2",
+          "threshold": 0
+        },
+        {
+          "answer": "2, 7, 5, 6, 11, 2, 5, 4, 9",
+          "threshold": 0
+        }
+      ],
+      "question": " For the tree below, write the pre-order traversal"
+    },
+    {
+      "answers": [
+        {
+          "answer": "O(1)",
+          "threshold": 0
+        },
+        {
+          "answer": "O(n)",
+          "threshold": 1
+        },
+        {
+          "answer": "O(logn)",
+          "threshold": 0
+        },
+        {
+          "answer": "O(nlogn)",
+          "threshold": 0
+        }
+      ],
+      "question": "What is the time complexity of pre-order traversal in the iterative fashion?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Level-ordertraversal",
+          "threshold": 0
+        },
+        {
+          "answer": "Pre-ordertraversal",
+          "threshold": 1
+        },
+        {
+          "answer": "Post-ordertraversal",
+          "threshold": 0
+        },
+        {
+          "answer": "In-order traversal",
+          "threshold": 0
+        }
+      ],
+      "question": "To obtain a prefix expression, which of the tree traversals is used?"
+    }
+  ],
+  "questions2": [
+    {
+      "answers": [
+        {
+          "answer": "27/15 km",
+          "threshold": 0
+        },
+        {
+          "answer": "25/16 km",
+          "threshold": 0
+        },
+        {
+          "answer": "27/16 km",
+          "threshold": 1
+        },
+        {
+          "answer": "35/16 km",
+          "threshold": 0
+        }
+      ],
+      "question": "A man rows 6 km/h in still water. If the river is running at 3km/h, it takes him 45 minutes to row to a place and back? How far is the place?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2:3",
+          "threshold": 0
+        },
+        {
+          "answer": "3:2",
+          "threshold": 1
+        },
+        {
+          "answer": "1:2",
+          "threshold": 0
+        },
+        {
+          "answer": "1:3",
+          "threshold": 0
+        }
+      ],
+      "question": "If 20% of x = 30% of y then x:y is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "38",
+          "threshold": 0
+        },
+        {
+          "answer": "44",
+          "threshold": 0
+        },
+        {
+          "answer": "48",
+          "threshold": 1
+        },
+        {
+          "answer": "42",
+          "threshold": 0
+        }
+      ],
+      "question": "Find out the third proportion of the term 12 and 24"
+    },
+    {
+      "answers": [
+        {
+          "answer": "18:25:12:18",
+          "threshold": 0
+        },
+        {
+          "answer": "12:18:15:25",
+          "threshold": 1
+        },
+        {
+          "answer": "25:18:15:12",
+          "threshold": 0
+        },
+        {
+          "answer": "12:25:18:25",
+          "threshold": 0
+        }
+      ],
+      "question": "If a:b = 2:3, b:c = 6:5 and c:d = 3:5 then find the value of a:b:c:d"
+    },
+    {
+      "answers": [
+        {
+          "answer": "-33/65",
+          "threshold": 0
+        },
+        {
+          "answer": "65/33",
+          "threshold": 0
+        },
+        {
+          "answer": "33/65",
+          "threshold": 0
+        },
+        {
+          "answer": "-65/33",
+          "threshold": 1
+        }
+      ],
+      "question": "If x:y = 4:7, the value of (x2 + y2) /(x2 – y2) = ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "65:56",
+          "threshold": 0
+        },
+        {
+          "answer": "56:65",
+          "threshold": 1
+        },
+        {
+          "answer": "34:45",
+          "threshold": 0
+        },
+        {
+          "answer": "13:18",
+          "threshold": 0
+        }
+      ],
+      "question": "x:y = 7:4 then (4x+7y) : (7x+4y)"
+    },
+    {
+      "answers": [
+        {
+          "answer": "+4",
+          "threshold": 1
+        },
+        {
+          "answer": "-4",
+          "threshold": 0
+        },
+        {
+          "answer": "-5",
+          "threshold": 0
+        },
+        {
+          "answer": "-3",
+          "threshold": 0
+        }
+      ],
+      "question": "What number should be added or subtracted from each term in the ratio 11:9 so that it become 6:5"
+    },
+    {
+      "answers": [
+        {
+          "answer": "15",
+          "threshold": 0
+        },
+        {
+          "answer": "120",
+          "threshold": 0
+        },
+        {
+          "answer": "60",
+          "threshold": 1
+        },
+        {
+          "answer": "70",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways 5 rings can be worn on 3 fingers?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "120",
+          "threshold": 0
+        },
+        {
+          "answer": "720",
+          "threshold": 1
+        },
+        {
+          "answer": "360",
+          "threshold": 0
+        },
+        {
+          "answer": "60",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways the letters of the word ‘AUTHOR’ be arranged taking all the letters?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "420",
+          "threshold": 1
+        },
+        {
+          "answer": "840",
+          "threshold": 0
+        },
+        {
+          "answer": "5040",
+          "threshold": 0
+        },
+        {
+          "answer": "720",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways the letters of the word ‘MINIMUM’ be arranged taking all the letters?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2560",
+          "threshold": 0
+        },
+        {
+          "answer": "2880",
+          "threshold": 1
+        },
+        {
+          "answer": "5040",
+          "threshold": 0
+        },
+        {
+          "answer": "2520",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways letters of word ‘INVISIBLE’ be arranged such that all vowels are together?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "720",
+          "threshold": 0
+        },
+        {
+          "answer": "210",
+          "threshold": 1
+        },
+        {
+          "answer": "420",
+          "threshold": 0
+        },
+        {
+          "answer": "360",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways a group of 2 men and 4 women be made out of a total of 4 men and 7 women?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "64",
+          "threshold": 0
+        },
+        {
+          "answer": "216",
+          "threshold": 0
+        },
+        {
+          "answer": "256",
+          "threshold": 1
+        },
+        {
+          "answer": "324",
+          "threshold": 0
+        }
+      ],
+      "question": "How many four digit number can be formed with the digits 5,9,1 and 3 only ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "280",
+          "threshold": 1
+        },
+        {
+          "answer": "360",
+          "threshold": 0
+        },
+        {
+          "answer": "200",
+          "threshold": 0
+        },
+        {
+          "answer": "540",
+          "threshold": 0
+        }
+      ],
+      "question": "Find the number of ways in which 9 students equally divided into three groups ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "6800",
+          "threshold": 0
+        },
+        {
+          "answer": "5600",
+          "threshold": 0
+        },
+        {
+          "answer": "1080",
+          "threshold": 0
+        },
+        {
+          "answer": "9000",
+          "threshold": 1
+        }
+      ],
+      "question": "How many arrangement can be made from the word COMMERCE, such that all the vowels do not come together ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2400200",
+          "threshold": 0
+        },
+        {
+          "answer": "2419000",
+          "threshold": 0
+        },
+        {
+          "answer": "2419200",
+          "threshold": 1
+        },
+        {
+          "answer": "2419100",
+          "threshold": 0
+        }
+      ],
+      "question": "Three brothers have 5 shirts, 8 pants and 6 ties. In how many ways can they wear them ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "35 C 5",
+          "threshold": 1
+        },
+        {
+          "answer": "36 C 5",
+          "threshold": 0
+        },
+        {
+          "answer": "36 C 6",
+          "threshold": 0
+        },
+        {
+          "answer": "35!/5!",
+          "threshold": 0
+        }
+      ],
+      "question": "Total no of ways in which 30 sweets can be distributed among 6 persons ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2520",
+          "threshold": 0
+        },
+        {
+          "answer": "5040",
+          "threshold": 0
+        },
+        {
+          "answer": "720",
+          "threshold": 0
+        },
+        {
+          "answer": "360",
+          "threshold": 1
+        }
+      ],
+      "question": "In how many ways can 7 beads be strung into necklace ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "252",
+          "threshold": 1
+        },
+        {
+          "answer": "345",
+          "threshold": 0
+        },
+        {
+          "answer": "648",
+          "threshold": 0
+        },
+        {
+          "answer": "560",
+          "threshold": 0
+        }
+      ],
+      "question": "Find the no of 3 digit numbers such that  atleast one of the digit is 6 (with repetitions) ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "8467200",
+          "threshold": 1
+        },
+        {
+          "answer": "9062700",
+          "threshold": 0
+        },
+        {
+          "answer": "7407000",
+          "threshold": 0
+        },
+        {
+          "answer": "8407200",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways  can 7 girls and 4 boys stand in a row so that no 2 boys are together ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "10!/2!",
+          "threshold": 0
+        },
+        {
+          "answer": "10!",
+          "threshold": 0
+        },
+        {
+          "answer": "11!",
+          "threshold": 0
+        },
+        {
+          "answer": "11!/2!",
+          "threshold": 1
+        }
+      ],
+      "question": "In how many ways the letters of the word PERMUTATION be arranged ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "5 km/h",
+          "threshold": 0
+        },
+        {
+          "answer": "6 km/h",
+          "threshold": 1
+        },
+        {
+          "answer": "6.5 km/h",
+          "threshold": 0
+        },
+        {
+          "answer": "8 km/h",
+          "threshold": 0
+        }
+      ],
+      "question": "A boat goes 40 km upstream in 8 hours and a distance of 49 km downstream in 7 hours. The speed of the boat in still water is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "55%",
+          "threshold": 0
+        },
+        {
+          "answer": "20 1/3%",
+          "threshold": 0
+        },
+        {
+          "answer": "49 2/3%",
+          "threshold": 0
+        },
+        {
+          "answer": "53 11/13%",
+          "threshold": 1
+        }
+      ],
+      "question": "A shopkeeper sells his gods at its CP only. But he uses 650 g weight at the place of 1000 g weight for a kg. What is his net profit percentage?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "745 1/3 g",
+          "threshold": 0
+        },
+        {
+          "answer": "750 g",
+          "threshold": 0
+        },
+        {
+          "answer": "714 2/7 g",
+          "threshold": 1
+        },
+        {
+          "answer": "800 g",
+          "threshold": 0
+        }
+      ],
+      "question": "A fruit vendor professes to sell fruits at the cost price, but uses false weights. He gains 40% in this manner. What weight does he substitute for one kilogram? "
+    },
+    {
+      "answers": [
+        {
+          "answer": "12 1/2%",
+          "threshold": 1
+        },
+        {
+          "answer": "7 1/2%",
+          "threshold": 0
+        },
+        {
+          "answer": "17 1/2%",
+          "threshold": 0
+        },
+        {
+          "answer": "25%",
+          "threshold": 0
+        }
+      ],
+      "question": "A certain sum is interested at compound. The interest accrued in the first two years is Rs. 544 and that in the first three years is Rs. 868. Find the rate per cent. "
+    },
+    {
+      "answers": [
+        {
+          "answer": "400",
+          "threshold": 1
+        },
+        {
+          "answer": "800",
+          "threshold": 0
+        },
+        {
+          "answer": "777",
+          "threshold": 0
+        },
+        {
+          "answer": "111",
+          "threshold": 0
+        }
+      ],
+      "question": "The train traveling at 50 km/h overtakes a motorbike traveling at 32 km/h in 80 s. What is the length of the train in meters?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "10 hrs",
+          "threshold": 0
+        },
+        {
+          "answer": "12 hrs",
+          "threshold": 1
+        },
+        {
+          "answer": "8 hrs",
+          "threshold": 0
+        },
+        {
+          "answer": "16 hrs",
+          "threshold": 0
+        }
+      ],
+      "question": "A train running at 7/11 of its own speed reached a place in 33 hrs. How much time could be saved if the train runs at its own speed?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1/169",
+          "threshold": 0
+        },
+        {
+          "answer": "1/221",
+          "threshold": 1
+        },
+        {
+          "answer": "1/338",
+          "threshold": 0
+        },
+        {
+          "answer": "4/663",
+          "threshold": 0
+        }
+      ],
+      "question": "Anil placed a deck of 52 cards. If you pick two cards what is the probability that both are aces?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "15/30",
+          "threshold": 0
+        },
+        {
+          "answer": "16/30",
+          "threshold": 0
+        },
+        {
+          "answer": "17/30",
+          "threshold": 1
+        },
+        {
+          "answer": "18/30",
+          "threshold": 0
+        }
+      ],
+      "question": "Tickets numbered from 1 to 40 are in a bag and one ticket is drawn at random. What is the probability that ticket drawn is a multiple of 3 or 7?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "0.2304",
+          "threshold": 1
+        },
+        {
+          "answer": "0.2704",
+          "threshold": 0
+        },
+        {
+          "answer": "0.2496",
+          "threshold": 0
+        },
+        {
+          "answer": "0.7696",
+          "threshold": 0
+        }
+      ],
+      "question": "Born babies to be boy is having 0.52 probability, and to be girl is 0.48. If you have two children, then what is the probability that they are both girls?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Rs.1435",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.1500",
+          "threshold": 1
+        },
+        {
+          "answer": "Rs.1538",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.1580",
+          "threshold": 0
+        }
+      ],
+      "question": "P and Q invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and P’s share is Rs. 855, the total profit is:"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Rs.423",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.343",
+          "threshold": 1
+        },
+        {
+          "answer": "Rs.356",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.387",
+          "threshold": 0
+        }
+      ],
+      "question": "Rs.1200 is divided among A,B,C so that A receives half so much as B and B half as much as C. Then B’s share is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Rs.3160",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.3215",
+          "threshold": 0
+        },
+        {
+          "answer": "Rs.3418",
+          "threshold": 1
+        },
+        {
+          "answer": "Rs.3525",
+          "threshold": 0
+        }
+      ],
+      "question": "A and B invest in a business in the ratio 3 : 7 . If 10 % of the total profit goes to charity and A’s share is Rs. 923, the profit is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "6:7",
+          "threshold": 0
+        },
+        {
+          "answer": "7:8",
+          "threshold": 1
+        },
+        {
+          "answer": "8:7",
+          "threshold": 0
+        },
+        {
+          "answer": "7:5",
+          "threshold": 0
+        }
+      ],
+      "question": "Two numbers are respectively 40% and  60% more than than the third number. The ratio of the two number is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "500",
+          "threshold": 0
+        },
+        {
+          "answer": "700",
+          "threshold": 0
+        },
+        {
+          "answer": "1000",
+          "threshold": 1
+        },
+        {
+          "answer": "1200",
+          "threshold": 0
+        }
+      ],
+      "question": "A sum of money is to be distributed among P , Q , R and S in the proportion 2:5:6:7, If R get Rs.500 more than S,what is P’s share ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "5:7:2",
+          "threshold": 0
+        },
+        {
+          "answer": "3:2:4",
+          "threshold": 0
+        },
+        {
+          "answer": "1:2:3",
+          "threshold": 0
+        },
+        {
+          "answer": "3:2:1",
+          "threshold": 1
+        }
+      ],
+      "question": "The speed of P, Q and R are in the ratio of 2:3:6, what is the ratio of time taken by each one of them for the same distance ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "216, 144, 27",
+          "threshold": 0
+        },
+        {
+          "answer": "108, 144, 216",
+          "threshold": 1
+        },
+        {
+          "answer": "27, 72, 216",
+          "threshold": 0
+        },
+        {
+          "answer": "120, 35, 108",
+          "threshold": 0
+        }
+      ],
+      "question": "A sum of Rs 315 consists of 25 paise, 50 paise and 1 Re coins in the ratio 3 : 4 :6. What is the number of each kind of coin respectively?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "16",
+          "threshold": 0
+        },
+        {
+          "answer": "4",
+          "threshold": 0
+        },
+        {
+          "answer": "10",
+          "threshold": 1
+        },
+        {
+          "answer": "2",
+          "threshold": 0
+        }
+      ],
+      "question": "Two numbers are in the ratio of 5:8 .If 4 is subtracted from each then the ratio become 1:2.The small number is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "15",
+          "threshold": 0
+        },
+        {
+          "answer": "20",
+          "threshold": 0
+        },
+        {
+          "answer": "25",
+          "threshold": 0
+        },
+        {
+          "answer": "30",
+          "threshold": 1
+        }
+      ],
+      "question": "The sum of present age of 2 persons is 100yrs.Before 5 years the ratio of their ages is 5:13.Find the age of younger person"
+    },
+    {
+      "answers": [
+        {
+          "answer": "89",
+          "threshold": 0
+        },
+        {
+          "answer": "56",
+          "threshold": 0
+        },
+        {
+          "answer": "64",
+          "threshold": 1
+        },
+        {
+          "answer": "72",
+          "threshold": 0
+        }
+      ],
+      "question": "How many numbers can be formed with the digits 1, 7, 2, 5 without repetition ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "210",
+          "threshold": 1
+        },
+        {
+          "answer": "320",
+          "threshold": 0
+        },
+        {
+          "answer": "716",
+          "threshold": 0
+        },
+        {
+          "answer": "5040",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways can 4 books be selected out of 10 books on different subjects ?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "120280",
+          "threshold": 0
+        },
+        {
+          "answer": "453600",
+          "threshold": 1
+        },
+        {
+          "answer": "360340",
+          "threshold": 0
+        },
+        {
+          "answer": "3628800",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways the letters of the word ‘ALLIGATION’ be arranged taking all the letters?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "60",
+          "threshold": 1
+        },
+        {
+          "answer": "30",
+          "threshold": 0
+        },
+        {
+          "answer": "90",
+          "threshold": 0
+        },
+        {
+          "answer": "70",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways all the letters of the word ‘MINIMUM’ be arranged such that all vowels are together?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "720",
+          "threshold": 0
+        },
+        {
+          "answer": "140",
+          "threshold": 1
+        },
+        {
+          "answer": "120",
+          "threshold": 0
+        },
+        {
+          "answer": "360",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways a group of 4 men and 3 women be made out of a total of 8 men and 5 women?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "256",
+          "threshold": 0
+        },
+        {
+          "answer": "225",
+          "threshold": 1
+        },
+        {
+          "answer": "198",
+          "threshold": 0
+        },
+        {
+          "answer": "252",
+          "threshold": 0
+        }
+      ],
+      "question": "How many 3 digit numbers are divisible by 4?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "225",
+          "threshold": 1
+        },
+        {
+          "answer": "240",
+          "threshold": 0
+        },
+        {
+          "answer": "120",
+          "threshold": 0
+        },
+        {
+          "answer": "160",
+          "threshold": 0
+        }
+      ],
+      "question": "How many 3 digits numbers have exactly one digit 2 in the number?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "70",
+          "threshold": 0
+        },
+        {
+          "answer": "96",
+          "threshold": 1
+        },
+        {
+          "answer": "84",
+          "threshold": 0
+        },
+        {
+          "answer": "48",
+          "threshold": 0
+        }
+      ],
+      "question": "How many 4 digit words can be made from the digits 7, 8, 5, 0, and 4 without repetition?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "348",
+          "threshold": 0
+        },
+        {
+          "answer": "284",
+          "threshold": 0
+        },
+        {
+          "answer": "224",
+          "threshold": 0
+        },
+        {
+          "answer": "336",
+          "threshold": 1
+        }
+      ],
+      "question": "In how many ways 8 students can be given 3 prizes such that no student receives more than 1 prize?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2780",
+          "threshold": 0
+        },
+        {
+          "answer": "2880",
+          "threshold": 1
+        },
+        {
+          "answer": "2800",
+          "threshold": 0
+        },
+        {
+          "answer": "2980",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many ways can 5 boys and 4 girls can be seated in a row so that they are in alternate position."
+    },
+    {
+      "answers": [
+        {
+          "answer": "512",
+          "threshold": 1
+        },
+        {
+          "answer": "343",
+          "threshold": 0
+        },
+        {
+          "answer": "256",
+          "threshold": 0
+        },
+        {
+          "answer": "526",
+          "threshold": 0
+        }
+      ],
+      "question": "In how many 8 prizes can be given to 3 boys, if all boys are equally eligible of getting the prize."
+    }
+  ],
+  "questions3": [
+    {
+      "answers": [
+        {
+          "answer": "Largest railway station",
+          "threshold": 1
+        },
+        {
+          "answer": "Highest railway station",
+          "threshold": 0
+        },
+        {
+          "answer": "Longest railway station",
+          "threshold": 0
+        },
+        {
+          "answer": "None of the above",
+          "threshold": 0
+        }
+      ],
+      "question": "Grand Central Terminal, Park Avenue, New York is the world's"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Behavior of human beings",
+          "threshold": 0
+        },
+        {
+          "answer": "Insects",
+          "threshold": 1
+        },
+        {
+          "answer": "The origin and history of technical and scientific terms",
+          "threshold": 0
+        },
+        {
+          "answer": "The formation of rocks",
+          "threshold": 0
+        }
+      ],
+      "question": "Entomology is the science that studies"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Asia",
+          "threshold": 0
+        },
+        {
+          "answer": "Africa",
+          "threshold": 1
+        },
+        {
+          "answer": "Europe",
+          "threshold": 0
+        },
+        {
+          "answer": "Australia",
+          "threshold": 0
+        }
+      ],
+      "question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Junagarh, Gujarat",
+          "threshold": 0
+        },
+        {
+          "answer": "Diphu, Assam",
+          "threshold": 1
+        },
+        {
+          "answer": "Kohima, Nagaland",
+          "threshold": 0
+        },
+        {
+          "answer": "Gangtok, Sikkim",
+          "threshold": 0
+        }
+      ],
+      "question": "Garampani sanctuary is located at"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Physics and Chemistry",
+          "threshold": 0
+        },
+        {
+          "answer": "Physiology or Medicine",
+          "threshold": 0
+        },
+        {
+          "answer": "Literature, Peace and Economics",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "For which of the following disciplines is Nobel Prize awarded?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Labour Party",
+          "threshold": 0
+        },
+        {
+          "answer": "Nazi Party",
+          "threshold": 1
+        },
+        {
+          "answer": "Ku-Klux-Klan",
+          "threshold": 0
+        },
+        {
+          "answer": "Democratic Party",
+          "threshold": 0
+        }
+      ],
+      "question": "Hitler party which came into power in 1933 is known as"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Foreign Finance Corporation",
+          "threshold": 0
+        },
+        {
+          "answer": "Film Finance Corporation",
+          "threshold": 1
+        },
+        {
+          "answer": "Federation of Football Council",
+          "threshold": 0
+        },
+        {
+          "answer": "None of the above",
+          "threshold": 0
+        }
+      ],
+      "question": "FFC stands for"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Dr. G. D. Bist",
+          "threshold": 1
+        },
+        {
+          "answer": "J.R.D. Tata",
+          "threshold": 0
+        },
+        {
+          "answer": "J.M. Tagore",
+          "threshold": 0
+        },
+        {
+          "answer": "Khudada Khan",
+          "threshold": 0
+        }
+      ],
+      "question": "Fastest shorthand writer was"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Horse racing",
+          "threshold": 1
+        },
+        {
+          "answer": "Polo",
+          "threshold": 0
+        },
+        {
+          "answer": "Shooting",
+          "threshold": 0
+        },
+        {
+          "answer": "Snooker",
+          "threshold": 0
+        }
+      ],
+      "question": "Epsom (England) is the place associated with"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1967",
+          "threshold": 1
+        },
+        {
+          "answer": "1968",
+          "threshold": 0
+        },
+        {
+          "answer": "1958",
+          "threshold": 0
+        },
+        {
+          "answer": "1922",
+          "threshold": 0
+        }
+      ],
+      "question": "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in"
+    },
+    {
+      "answers": [
+        {
+          "answer": "developed the telescope",
+          "threshold": 0
+        },
+        {
+          "answer": "discovered four satellites of Jupiter",
+          "threshold": 0
+        },
+        {
+          "answer": "discovered that the movement of pendulum produces a regular time measurement",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Galileo was an Italian astronomer who"
+    },
+    {
+      "answers": [
+        {
+          "answer": "states that no one was to be imprisoned without a write or warrant stating the charge against him",
+          "threshold": 0
+        },
+        {
+          "answer": "provided facilities to a prisoner to obtain either speedy trial or release in bail",
+          "threshold": 0
+        },
+        {
+          "answer": "safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Habeas Corpus Act 1679"
+    },
+    {
+      "answers": [
+        {
+          "answer": "the infrared light kills bacteria in the body",
+          "threshold": 0
+        },
+        {
+          "answer": "resistance power increases",
+          "threshold": 0
+        },
+        {
+          "answer": "the pigment cells in the skin get stimulated and produce a healthy tan",
+          "threshold": 0
+        },
+        {
+          "answer": "the ultraviolet rays convert skin oil into Vitamin D",
+          "threshold": 1
+        }
+      ],
+      "question": "Exposure to sunlight helps a person improve his health because"
+    },
+    {
+      "answers": [
+        {
+          "answer": "USA",
+          "threshold": 0
+        },
+        {
+          "answer": "Fiji",
+          "threshold": 1
+        },
+        {
+          "answer": "India",
+          "threshold": 0
+        },
+        {
+          "answer": "UK",
+          "threshold": 0
+        }
+      ],
+      "question": "Golf player Vijay Singh belongs to which country?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Letter of Credit (L/C)",
+          "threshold": 1
+        },
+        {
+          "answer": "laissezfaire",
+          "threshold": 0
+        },
+        {
+          "answer": "inflation",
+          "threshold": 0
+        },
+        {
+          "answer": "None of the above",
+          "threshold": 0
+        }
+      ],
+      "question": "Guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1839",
+          "threshold": 1
+        },
+        {
+          "answer": "1843",
+          "threshold": 0
+        },
+        {
+          "answer": "1833",
+          "threshold": 0
+        },
+        {
+          "answer": "1848",
+          "threshold": 0
+        }
+      ],
+      "question": "First Afghan War took place in"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and United Arab Emirates",
+          "threshold": 1
+        },
+        {
+          "answer": "Second World Nations",
+          "threshold": 0
+        },
+        {
+          "answer": "Third World Nations",
+          "threshold": 0
+        },
+        {
+          "answer": "Fourth World Nations",
+          "threshold": 0
+        }
+      ],
+      "question": "Gulf cooperation council was originally formed by"
+    },
+    {
+      "answers": [
+        {
+          "answer": "China and Britain",
+          "threshold": 1
+        },
+        {
+          "answer": "China and France",
+          "threshold": 0
+        },
+        {
+          "answer": "China and Egypt",
+          "threshold": 0
+        },
+        {
+          "answer": "China and Greek",
+          "threshold": 0
+        }
+      ],
+      "question": "First China War was fought between"
+    },
+    {
+      "answers": [
+        {
+          "answer": "selling of goods abroad at a price well below the production cost at the home market price",
+          "threshold": 0
+        },
+        {
+          "answer": "the process by which the supply of a manufacture's product remains low in the domestic market, which batches him better price",
+          "threshold": 0
+        },
+        {
+          "answer": "prohibited by regulations of GATT",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Dumping is"
+    },
+    {
+      "answers": [
+        {
+          "answer": "26 m x 14 m",
+          "threshold": 0
+        },
+        {
+          "answer": "28 m x 15 m",
+          "threshold": 1
+        },
+        {
+          "answer": "27 m x 16 m",
+          "threshold": 0
+        },
+        {
+          "answer": "28 m x 16 m",
+          "threshold": 0
+        }
+      ],
+      "question": "For the Olympics and World Tournaments, the dimensions of basketball court are"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Tennis",
+          "threshold": 0
+        },
+        {
+          "answer": "Volleyball",
+          "threshold": 1
+        },
+        {
+          "answer": "Basketball",
+          "threshold": 0
+        },
+        {
+          "answer": "Cricket",
+          "threshold": 0
+        }
+      ],
+      "question": "Federation Cup, World Cup, Allywyn International Trophy and Challenge Cup are awarded to winners of"
+    },
+    {
+      "answers": [
+        {
+          "answer": "May 8",
+          "threshold": 1
+        },
+        {
+          "answer": "May 18",
+          "threshold": 0
+        },
+        {
+          "answer": "June 8",
+          "threshold": 0
+        },
+        {
+          "answer": "June 18",
+          "threshold": 0
+        }
+      ],
+      "question": "Each year World Red Cross and Red Crescent Day is celebrated on"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Khajuraho temples",
+          "threshold": 1
+        },
+        {
+          "answer": "Jama Masjid",
+          "threshold": 0
+        },
+        {
+          "answer": "Sun temple",
+          "threshold": 0
+        },
+        {
+          "answer": "Mahabalipuram temples",
+          "threshold": 0
+        }
+      ],
+      "question": "Famous sculptures depicting art of love built some time in 950 AD - 1050 AD are"
+    },
+    {
+      "answers": [
+        {
+          "answer": "SOx",
+          "threshold": 0
+        },
+        {
+          "answer": "NOx",
+          "threshold": 0
+        },
+        {
+          "answer": "suspended particulate matter",
+          "threshold": 1
+        },
+        {
+          "answer": "CO",
+          "threshold": 0
+        }
+      ],
+      "question": "Gravity setting chambers are used in industries to remove"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Nagaland",
+          "threshold": 0
+        },
+        {
+          "answer": "Arunachal Pradesh",
+          "threshold": 0
+        },
+        {
+          "answer": "Assam",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Guwahati High Court is the judicature of"
+    },
+    {
+      "answers": [
+        {
+          "answer": "sliding to rolling",
+          "threshold": 1
+        },
+        {
+          "answer": "rolling to sliding",
+          "threshold": 0
+        },
+        {
+          "answer": "potential energy to kinetic energy",
+          "threshold": 0
+        },
+        {
+          "answer": "dynamic to static",
+          "threshold": 0
+        }
+      ],
+      "question": "Friction can be reduced by changing from"
+    },
+    {
+      "answers": [
+        {
+          "answer": "SODAR (SOnic Detection And Ranging)",
+          "threshold": 1
+        },
+        {
+          "answer": "Second Permanent Station 'Maitree'",
+          "threshold": 0
+        },
+        {
+          "answer": "First permanent station 'Dakshin Gangotri'",
+          "threshold": 0
+        },
+        {
+          "answer": "None of the above",
+          "threshold": 0
+        }
+      ],
+      "question": "During eleventh Antarctic Expedition in Nov. 1991/March 1992 ____ was installed."
+    },
+    {
+      "answers": [
+        {
+          "answer": "U Thant, Kurt Waldheim, Dag Hammarskjoeld, Trygve Lie.",
+          "threshold": 0
+        },
+        {
+          "answer": "Trygve Lie, Dag Hammarskjoeld, U Thant, Kurt Waldheim.",
+          "threshold": 1
+        },
+        {
+          "answer": "Trygve Lie, U Thant , Dag Hammarskjoeld, Kurt Waldheim.",
+          "threshold": 0
+        },
+        {
+          "answer": "U Thant, Dag Hammarskjoeld, Trygve Lie, Kurt Waldheim.",
+          "threshold": 0
+        }
+      ],
+      "question": "From the following, choose the set in which names of Secretary-Generals of the UNO are arranged in correct chronological order?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Taoism",
+          "threshold": 0
+        },
+        {
+          "answer": "Judaism",
+          "threshold": 0
+        },
+        {
+          "answer": "Zoroastrianism (Parsi Religion)",
+          "threshold": 1
+        },
+        {
+          "answer": "Shintoism",
+          "threshold": 0
+        }
+      ],
+      "question": "Fire temple is the place of worship of which of the following religion?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Pune (Maharashtra)",
+          "threshold": 1
+        },
+        {
+          "answer": "Rajkot (Gujarat)",
+          "threshold": 0
+        },
+        {
+          "answer": "Pimpri (Maharashtra)",
+          "threshold": 0
+        },
+        {
+          "answer": "Perambur (Tamilnadu)",
+          "threshold": 0
+        }
+      ],
+      "question": "Film and TV institute of India is located at"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1991",
+          "threshold": 0
+        },
+        {
+          "answer": "1992",
+          "threshold": 1
+        },
+        {
+          "answer": "1993",
+          "threshold": 0
+        },
+        {
+          "answer": "1994",
+          "threshold": 0
+        }
+      ],
+      "question": "Georgia, Uzbekistan and Turkmenistan became the members of UNO in"
+    },
+    {
+      "answers": [
+        {
+          "answer": "the 10th Guru of the Sikhs",
+          "threshold": 0
+        },
+        {
+          "answer": "founder of Khalsa, the inner council of the Sikhs in 1699",
+          "threshold": 0
+        },
+        {
+          "answer": "author of Dasam Granth",
+          "threshold": 0
+        },
+        {
+          "answer": "All the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Guru Gobind Singh was"
+    },
+    {
+      "answers": [
+        {
+          "answer": "his indefatigable work for thepromotion of solar energy worldwide",
+          "threshold": 1
+        },
+        {
+          "answer": "his long standing efforts to end the impunity of dictators",
+          "threshold": 0
+        },
+        {
+          "answer": "showing that organic agriculture is a key to both environmental sustainability and food security",
+          "threshold": 0
+        },
+        {
+          "answer": "None of the above",
+          "threshold": 0
+        }
+      ],
+      "question": "Hermann Scheer (Germany) received right Livelihood Award in 1999 for"
+    },
+    {
+      "answers": [
+        {
+          "answer": "January 19, 1918",
+          "threshold": 0
+        },
+        {
+          "answer": "May 30, 1918",
+          "threshold": 0
+        },
+        {
+          "answer": "November 11, 1918",
+          "threshold": 1
+        },
+        {
+          "answer": "February 15, 1918",
+          "threshold": 0
+        }
+      ],
+      "question": "Germany signed the Armistice Treaty on ____ and World War I ended"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1940",
+          "threshold": 1
+        },
+        {
+          "answer": "1941",
+          "threshold": 0
+        },
+        {
+          "answer": "1942",
+          "threshold": 0
+        },
+        {
+          "answer": "1943",
+          "threshold": 0
+        }
+      ],
+      "question": "During World War II, when did Germany attack France?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Chemistry in 1958 and 1980",
+          "threshold": 1
+        },
+        {
+          "answer": "Physics in 1956 and 1972",
+          "threshold": 0
+        },
+        {
+          "answer": "Chemistry in 1954 and Peace in 1962",
+          "threshold": 0
+        },
+        {
+          "answer": "Physics in 1903 and Chemistry in 1911",
+          "threshold": 0
+        }
+      ],
+      "question": "Frederick Sanger is a twice recipient of the Nobel Prize for"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Visible light",
+          "threshold": 0
+        },
+        {
+          "answer": "Infrared radiation",
+          "threshold": 0
+        },
+        {
+          "answer": "X-rays and gamma rays",
+          "threshold": 0
+        },
+        {
+          "answer": "Ultraviolet radiation",
+          "threshold": 1
+        }
+      ],
+      "question": "The ozone layer restricts"
+    },
+    {
+      "answers": [
+        {
+          "answer": "altering human beings by changing their genetic components",
+          "threshold": 1
+        },
+        {
+          "answer": "people of European origin",
+          "threshold": 0
+        },
+        {
+          "answer": "different races of mankind",
+          "threshold": 0
+        },
+        {
+          "answer": "genetic of plants",
+          "threshold": 0
+        }
+      ],
+      "question": "Eugenics is the study of"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Greek mathematician",
+          "threshold": 0
+        },
+        {
+          "answer": "Contributor to the use of deductive principles of logic as the basis of geometry",
+          "threshold": 0
+        },
+        {
+          "answer": "Propounded the geometrical theorems",
+          "threshold": 0
+        },
+        {
+          "answer": "All of the above",
+          "threshold": 1
+        }
+      ],
+      "question": "Euclid was"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Birds",
+          "threshold": 0
+        },
+        {
+          "answer": "Cell formation",
+          "threshold": 0
+        },
+        {
+          "answer": "Relation between organisms and their environment",
+          "threshold": 1
+        },
+        {
+          "answer": "Tissues",
+          "threshold": 0
+        }
+      ],
+      "question": "Ecology deals with"
+    },
+    {
+      "answers": [
+        {
+          "answer": "1 May 1913 France ii",
+          "threshold": 0
+        },
+        {
+          "answer": "1 March 1913 Paris",
+          "threshold": 1
+        },
+        {
+          "answer": "2 May 1913 Wimbledon",
+          "threshold": 0
+        },
+        {
+          "answer": "5 May 1920 Spain",
+          "threshold": 0
+        }
+      ],
+      "question": "When and where was the International Tennis Federation Formed (ITF)?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "20 July 1877",
+          "threshold": 1
+        },
+        {
+          "answer": "19 July 1877",
+          "threshold": 0
+        },
+        {
+          "answer": "1 July 1870",
+          "threshold": 0
+        },
+        {
+          "answer": "19 July 1870",
+          "threshold": 0
+        }
+      ],
+      "question": "When was the First Wimbledon held?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "William Marshal",
+          "threshold": 1
+        },
+        {
+          "answer": "Spencer Gore",
+          "threshold": 0
+        },
+        {
+          "answer": "Althea Gibson",
+          "threshold": 0
+        },
+        {
+          "answer": "None of these",
+          "threshold": 0
+        }
+      ],
+      "question": "Who was the first Bingles winner of Wimbledon?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "15",
+          "threshold": 0
+        },
+        {
+          "answer": "17",
+          "threshold": 1
+        },
+        {
+          "answer": "18",
+          "threshold": 0
+        },
+        {
+          "answer": "19",
+          "threshold": 0
+        }
+      ],
+      "question": "Roger Federer has won how many Grand Slams?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Roger Federer",
+          "threshold": 0
+        },
+        {
+          "answer": "Novak Djokivic",
+          "threshold": 1
+        },
+        {
+          "answer": "Rafael Nadal",
+          "threshold": 0
+        },
+        {
+          "answer": "Wilfried- Tsonga",
+          "threshold": 0
+        }
+      ],
+      "question": "As of 1-11-15 who was World No.1?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Leander Paes and Mahesh Bhupati",
+          "threshold": 1
+        },
+        {
+          "answer": "Mahesh Bhupati and Rohan Boppana",
+          "threshold": 0
+        },
+        {
+          "answer": "Leander Paes and Yuki Bhambri",
+          "threshold": 0
+        },
+        {
+          "answer": "Yuki Bhambri and Rohan Boppana",
+          "threshold": 0
+        }
+      ],
+      "question": "The famous Indian Express was a team of?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Deuce",
+          "threshold": 1
+        },
+        {
+          "answer": "Jockey",
+          "threshold": 0
+        },
+        {
+          "answer": "Punter",
+          "threshold": 0
+        },
+        {
+          "answer": "Scoop",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of the following terms is used in the game of Lawn Tennis?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Ace",
+          "threshold": 0
+        },
+        {
+          "answer": "Back hand drive",
+          "threshold": 0
+        },
+        {
+          "answer": "Gambit",
+          "threshold": 1
+        },
+        {
+          "answer": "Smash",
+          "threshold": 0
+        }
+      ],
+      "question": "Which of the following terms is not used in the game of Lawn Tennis?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "2005",
+          "threshold": 0
+        },
+        {
+          "answer": "2006",
+          "threshold": 0
+        },
+        {
+          "answer": "2004",
+          "threshold": 1
+        },
+        {
+          "answer": "2003",
+          "threshold": 0
+        }
+      ],
+      "question": "Maria Sharapova won the Wimbledon in the year?"
+    },
+    {
+      "answers": [
+        {
+          "answer": "Helen Wills Moody",
+          "threshold": 0
+        },
+        {
+          "answer": "Margaret Court",
+          "threshold": 0
+        },
+        {
+          "answer": "Serena Williams",
+          "threshold": 1
+        },
+        {
+          "answer": "Steffi Graf",
+          "threshold": 0
+        }
+      ],
+      "question": "Who among the following has won the women's singles title of the WTA Finals?"
+    }
+  ]
+}

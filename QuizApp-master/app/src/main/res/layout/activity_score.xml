@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".activities.ScoreActivity">
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:text="Logout"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_below="@id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/claps"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/claps" />
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:shadowColor="@color/colorBlack"
+                    android:shadowDx="1"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="100sp" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/overview"
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="OverView"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    app:backgroundTint="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/retake"
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Retake"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    app:backgroundTint="@color/colorWhite" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/statistics"
+                    android:layout_width="272dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/button_white_stroke"
+                    android:padding="15dp"
+                    android:text="Statistics"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

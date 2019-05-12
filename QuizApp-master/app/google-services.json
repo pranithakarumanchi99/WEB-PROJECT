@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "516953919505",
+    "firebase_url": "https://exam-8138a.firebaseio.com",
+    "project_id": "exam-8138a",
+    "storage_bucket": "exam-8138a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516953919505:android:28dda531e16667cf",
+        "android_client_info": {
+          "package_name": "app.psychic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516953919505-9t183mr1qot2omat6p66qsk9pn47iah4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.psychic",
+            "certificate_hash": "a5dca91973bcbc4d80932e005b8b43d4b3026612"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbNpKcoNGeXW-yo8QmLegw6VDMI2-ORpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516953919505-ggns7td67mi9q09eisskqju90ofpui00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
