@@ -12,8 +12,8 @@
 
 # Contributions:
 
-1. Pranitha  - works with main functionality of the application
-2. Sushma - works with database, database connectivity and backend functionality
+1. Pranitha  - works with main functionality of the application,database connection.
+2. Sushma - works with Statistics,Internal storage.
 3. Vikas - works with user Interface and main functionality
 
 
