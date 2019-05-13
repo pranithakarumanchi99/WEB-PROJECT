@@ -5,17 +5,17 @@
 
 # Authors:
 
-1. Keerthi Sree kukunoor
-2. Mouni Krishna Atluri
-3. Venkata Sai Krishna Dasari
-4. Sachin Setty
+1. Pranitha Saroj Karumanchi
+2. Sushmasri Surapaneni
+3. Vikas Narravula
+
 
 # Contributions:
 
-1. Keerthi Sree kukunoor - works with main functionality of the application
-2. Mouni Krishna Atluri - works with database, database connectivity and backend functionality
-3. Venkata Sai Krishna Dasari - works with user Interface and main functionality
-4. Sachin Setty - works with User Interface(front end developer)
+1. Pranitha  - works with main functionality of the application
+2. Sushma - works with database, database connectivity and backend functionality
+3. Vikas - works with user Interface and main functionality
+
 
 # Project Description:
 
